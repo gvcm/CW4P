@@ -1,0 +1,25 @@
+.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.right-panel {
+  border-left: 1px solid red;
+}
+
+.head {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.breaking {
+  position: relative;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #fff;
+  display: inline-block;
+  background: linear-gradient(-45deg, rgba(92, 190, 115, 1) 1%, rgba(24, 43, 4, 1) 100%);
+}
+
+.menu {
+  color: #000;
+}

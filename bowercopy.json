@@ -1,0 +1,36 @@
+{
+  "libs": {
+    "options": {
+      "destPrefix": "app/vendor",
+      "clean": false
+    },
+    "files": {
+      "pubsub.js": "pubsub-js/src/pubsub.js",
+      "require.js": "requirejs/require.js",
+      "three.js": "threejs/build/three.js",
+      "underscore.js": "underscore/underscore.js",
+      "jquery.js": "jquery/dist/jquery.js"
+    }
+  },
+  "threejs-controls": {
+    "options": {
+      "destPrefix": "app/vendor/threejs-controls",
+      "clean": false
+    },
+    "files": {
+      "OrbitControls.js": "threejs-controls/src/OrbitControls.js"
+    }
+  },
+  "bootstrap": {
+    "options": {
+      "destPrefix": "app/vendor/bootstrap",
+      "clean": false
+    },
+    "files": {
+      "js/bootstrap.js": "bootstrap/dist/js/bootstrap.js",
+      "css/bootstrap.css": "bootstrap/dist/css/bootstrap.css",
+      "css/bootstrap.css.map": "bootstrap/dist/css/bootstrap.css.map",
+      "fonts": "bootstrap/dist/fonts/glyphicons-halflings-regular.*"
+    }
+  }
+}

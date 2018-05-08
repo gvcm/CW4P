@@ -1,0 +1,18 @@
+{
+  "name": "Crystal Walk",
+  "version": "0.1.1",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.11",
+    "threejs": "*",
+    "underscore": "~1.6.0",
+    "pubsub-js": "~1.4.2",
+    "threejs-controls": "git@github.com:rafops/threejs-controls.git",
+    "bootstrap": "~3.2.0"
+  }
+}

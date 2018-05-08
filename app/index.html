@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CW4P</title>
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="dark">
+    <script data-main="scripts/router" src="vendor/require.js"></script>
+    <div class="container-fluid">
+      <section>
+        <div class="row">
+          <div class="col-md-9" id="app-container">
+            <div id="app-renderer-container" style="position: fixed;"></div>
+          </div>
+          <div class="col-md-3 right-panel" id="controls">
+            <header>
+              <div class="row head">
+                <div class="col-md-12 text-center">
+                  <h1>Application Title</h1>
+                </div>
+              </div>
+            </header>
+            <section class="menu">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#modelMenu">Menu Group</a>
+                        </h4>
+                      </div>
+                      <div id="modelMenu">
+                        <div class="panel-body">
+                          <form role="form" action="#">
+                            <div class="form-group">
+                              <label for="model">Model</label>
+                              <select class="form-control" id="model">
+                                <option value="">Choose a model</option>
+                                <option value="cube">Cube</option>
+                                <option value="sphere">Sphere</option>
+                              </select>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div><!-- model panel -->
+                  </div><!-- accordion -->
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="vendor/jquery.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>
